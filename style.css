@@ -79,3 +79,8 @@ nav button{
     background-color: rgb(39, 38, 38);
 
 }
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
