@@ -92,8 +92,12 @@ nav button {
 
 .btn {
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: white;
+    font-weight:400px;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-red {
@@ -102,6 +106,14 @@ nav button {
     padding: 3px 24px;
     font-size: 20px;
     border-radius: 4px;
+}
+.btn-red-sm {
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    color: white;
+
 }
 
 .main input {
@@ -113,10 +125,3 @@ nav button {
     border: 1px solid rgba(255, 255, 255, 0.4)
 }
 
-.btn-red-sm {
-    padding: 3px 8px;
-    font-weight: bold;
-    background-color: rgb(255, 0, 0);
-    color: white;
-
-}
