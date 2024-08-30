@@ -62,7 +62,7 @@ nav button {
     flex-direction: column;
     color: white;
     position: relative;
-    gap: 5px;
+    gap: 23px;
     padding-top: 100px;
 }
 
@@ -105,13 +105,18 @@ nav button {
 }
 
 .main input {
-    padding: 3px 24px;
-    font-size: 20px;
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    font-size: 12px;
     border-radius: 4px;
+    background-color: rgba(23,23, 23, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.4)
 }
 
 .btn-red-sm {
-    background-color: red;
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
     color: white;
 
 }
