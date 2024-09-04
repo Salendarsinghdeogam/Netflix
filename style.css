@@ -154,6 +154,8 @@ flex-direction: column;
 }
 .faq h2{
     text-align: center;
+    font-size: 40px;
+
 }
 .faq{
     background: black;
@@ -161,20 +163,27 @@ flex-direction: column;
     padding: 34px;
 
 }
-
+.faqbox:hover{
+    background-color: rgb(37, 36, 36);
+}
 .faqbox{
+    transition: all;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 500;
     display: flex;
-    background-color: gray;
+    background-color: rgb(20, 20, 20);
     justify-content: space-between;
     padding: 24px;
     max-width: 60vw;
     margin:34px  auto;
+    cursor: pointer;
 
 }
+
 .faqbox svg{
     height: 24px;
     width: 24px;
+    filter: invert(1);
+
 }
 
