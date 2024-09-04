@@ -124,6 +124,33 @@ nav button {
     font-size: 12px;
     border-radius: 4px;
     background-color: rgba(23,23, 23, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.4)
+    border: 1px solid rgba(246, 238, 238, 0.5)
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.secimg{
+    position: relative;
+
+}
+.secimg img{
+    width: 30vw;
+}
+.first > div :first-child{
+display: flex;
+flex-direction: column;
+}
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first > div :nth-child(2){
+    font-size: 24px;
+
 }
 
